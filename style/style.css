@@ -61,7 +61,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid red; */
+    background-image: url("../images/failure-background.png");
+    background-color: #f9fbfd;
 }
 .failure-part{
     width: 75%;
@@ -69,6 +70,9 @@ header{
     display: flex;
     align-items: center;
     gap: 130px;
+}
+.failure-part img{
+    width: 100%;
 }
 .failure-p{
     line-height: 20px;
@@ -83,6 +87,7 @@ header{
 }
 /* --------My Plan Part-------- */
 .my-plan-sec{
+    margin-top: 5rem;
     height: 350px;
     width: 100%;
     display: flex;
