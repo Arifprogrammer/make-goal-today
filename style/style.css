@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 h1, h2, h3{
-    font-weight: 700;
+    font-weight: 800;
     color: #151414;
 }
 h1{
@@ -25,5 +25,167 @@ header{
     background-image: url("../images/banner/banner1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    background-position: 0% 80%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-sec{
+    width: 75%;
+    height: 60%;
+    text-align: end;
+}
+.banner-sec p{
+    width: 40%;
+    margin-left: auto;
+}
+.banner-sec > p{
+    margin-top: 1.25em;
+}
+.btn-1{
+    margin-top: 3.25em;
+}
+.btn-1 > a{
+    background: #F15B22;
+    color: #FFFFFF;
+    padding: 18px 28px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* --------Failure Part-------- */
+.failure-sec{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.failure-part{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+.failure-p{
+    line-height: 20px;
+    width: 70%;
+}
+.failure-text p{
+    margin-top: 1.5rem;
+}
+.failure-text i{
+        color: #F15B22;
+        font-size: 1.25rem;
+}
+/* --------My Plan Part-------- */
+.my-plan-sec{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.my-plan-part{
+    width: 75%;
+}
+.my-plan-part > h2{
+    text-align: center;
+}
+.my-plans{
+    display: flex;
+    justify-content: space-around;
+}
+.my-plans > div{
+    text-align: center;
+    margin-top: 55px;
+}
+.my-plans > div > *{
+    margin-bottom: 10px;
+}
+/* --------Mindset part-------- */
+.mindset-sec{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mindset-part{
+    width: 75%;
+    height: 55%;
+    background-image: url("../images/watch.png"),
+                                url("../images/gradient2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 7px;
+}
+.mindset-part > h2, .btn-2{
+    padding-left: 65px;
+}
+.mindset-part h2:nth-child(1){
+    margin-top: 110px;
+}
+.mindset-part > h2{
+    color: #FFFFFF;
+}
+.btn-2{
+    margin-top: 2.25em;
+}
+.btn-2 > a{
+    background: #FFFFFF;
+    color: #F15B22;
+    padding: 18px 28px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* --------Footer part-------- */
+footer{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151414;
+}
+.footer-part{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.future > *, .subscribe > *{
+    margin-top: 1.5rem;
+    color: #FFFFFF;
+}
+.future > img{
+    margin-left: .7rem;
+}
+.future > p{
+    width: 60%;
+}
+.subscribe > input{
+    background: transparent;
+    width: 325px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    padding-left: 1rem;
+}
+.btn-3{
+    margin-top: 2.25em;
+}
+.btn-3 > a{
+    background: #FFFFFF;
+    color: #F15B22;
+    padding: 18px 28px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
 }
